@@ -27,7 +27,6 @@
  */
 
 #include "arm_bitreversal.c"
-#include "arm_bitreversal2.c"
 #include "arm_cfft_f32.c"
 #include "arm_cfft_f64.c"
 #include "arm_cfft_q15.c"
