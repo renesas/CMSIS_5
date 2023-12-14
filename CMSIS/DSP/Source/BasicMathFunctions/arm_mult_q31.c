@@ -98,7 +98,7 @@ void arm_mult_q31(
 }
 
 #else
-void arm_mult_q31(
+__WEAK void arm_mult_q31(
   const q31_t * pSrcA,
   const q31_t * pSrcB,
         q31_t * pDst,
