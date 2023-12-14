@@ -129,7 +129,7 @@ arm_status arm_mat_scale_q31(
 }
 
 #else
-arm_status arm_mat_scale_q31(
+__WEAK arm_status arm_mat_scale_q31(
   const arm_matrix_instance_q31 * pSrc,
         q31_t                     scaleFract,
         int32_t                   shift,

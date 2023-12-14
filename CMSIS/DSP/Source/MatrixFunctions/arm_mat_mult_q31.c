@@ -623,7 +623,7 @@ arm_status arm_mat_mult_q31(
 }
 
 #else
-arm_status arm_mat_mult_q31(
+__WEAK arm_status arm_mat_mult_q31(
   const arm_matrix_instance_q31 * pSrcA,
   const arm_matrix_instance_q31 * pSrcB,
         arm_matrix_instance_q31 * pDst)
