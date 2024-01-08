@@ -318,7 +318,7 @@ void arm_biquad_cascade_df1_q31(
     while (--stages);
 }
 #else
-void arm_biquad_cascade_df1_q31(
+__WEAK void arm_biquad_cascade_df1_q31(
   const arm_biquad_casd_df1_inst_q31 * S,
   const q31_t * pSrc,
         q31_t * pDst,
