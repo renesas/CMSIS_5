@@ -346,7 +346,7 @@ void arm_fir_interpolate_q31(
     }
 }
 #else
-void arm_fir_interpolate_q31(
+__WEAK void arm_fir_interpolate_q31(
   const arm_fir_interpolate_instance_q31 * S,
   const q31_t * pSrc,
         q31_t * pDst,

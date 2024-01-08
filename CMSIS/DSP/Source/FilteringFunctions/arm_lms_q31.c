@@ -63,7 +63,7 @@
                    the updation of filter cofficients are saturted.
  */
 
-void arm_lms_q31(
+__WEAK void arm_lms_q31(
   const arm_lms_instance_q31 * S,
   const q31_t * pSrc,
         q31_t * pRef,
